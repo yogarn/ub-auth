@@ -1,5 +1,5 @@
 {
-  "name": "ub-auth",
+  "name": "@yogarn/ub-auth",
   "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
@@ -13,6 +13,7 @@
     "tough-cookie": "^4.1.4"
   },
   "repository": {
+    "type": "git",
     "url": "https://github.com/yogarn/ub-auth.git"
   }
 }
