@@ -1,5 +1,5 @@
 {
-  "name": "@yogarn/ub-auth",
+  "name": "ub-auth",
   "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
