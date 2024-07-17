@@ -1,0 +1,15 @@
+{
+  "name": "ub-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "author": "Yoga Raditya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^5.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "tough-cookie": "^4.1.4"
+  }
+}
