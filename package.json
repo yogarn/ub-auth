@@ -11,5 +11,8 @@
     "axios-cookiejar-support": "^5.0.2",
     "cheerio": "^1.0.0-rc.12",
     "tough-cookie": "^4.1.4"
+  },
+  "repository": {
+    "url": "https://github.com/yogarn/ub-auth.git"
   }
 }
