@@ -1,11 +1,11 @@
 # ub-auth
 Unofficial authentication system for Universitas Brawijaya student account.
-## Get Started
-1. Install via NPM
+## Get Started  
+1. **Install via NPM**
 ```sh
 npm install @yogarn/ub-auth
 ```
-2. Usage
+2. **Usage**  
 Include the package in your code and authenticate a user.
 ```js
 import ub from '@yogarn/ub-auth';
@@ -26,7 +26,7 @@ async function authenticate() {
 
 authenticate();
 ```
-3. Response
+3. **Response**  
 Upon successful authentication, the following student profile information will be returned:
 ```json
 {
