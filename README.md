@@ -37,13 +37,15 @@ Upon successful authentication, the following student profile information will b
 
 ```json
 {
-  "nim": "23515xxxxxxxxxx",
-  "nama": "JOHN DOE",
-  "jenjangFakultas": "S1/Ilmu Komputer",
-  "jurusan": "Teknik Informatika",
-  "programStudi": "Teknik Informatika",
-  "seleksi": "SELEKSI NASIONAL BERDASARKAN PRESTASI Brawijaya - Malang",
-  "nomorUjian": "49xxxxxxx"
+  "data": {
+    "nim": "23515xxxxxxxxxx",
+    "nama": "JOHN DOE",
+    "jenjangFakultas": "S1/Ilmu Komputer",
+    "jurusan": "Teknik Informatika",
+    "programStudi": "Teknik Informatika",
+    "seleksi": "SELEKSI NASIONAL BERDASARKAN PRESTASI Brawijaya - Malang",
+    "nomorUjian": "49xxxxxxx"
+  }
 }
 ```
 
