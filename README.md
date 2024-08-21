@@ -104,3 +104,51 @@ getClasses();
   ]
 }
 ```
+
+### Get Student Scores
+
+```js
+import ub from '@yogarn/ub-auth';
+
+async function getKhs() {
+  try {
+    const data = await ub.getKhs({
+      username: '23515xxxxxxxxxx',
+      password: 'password',
+      semester: 2,
+      isPendek: 1
+    });
+    console.log(data);
+    // handle data
+  } catch (error) {
+    console.error('Error:', error);
+    // handle error
+  }
+}
+
+getKhs();
+```
+
+**Response**
+
+```
+{
+  data: [
+    {
+      no: '1',
+      kode: 'COM60052',
+      mataKuliah: 'Etika Profesi',
+      sks: '2',
+      nilai: 'A'
+    },
+    {
+      no: '2',
+      kode: 'CIF61010',
+      mataKuliah: 'Metode Numerik',
+      sks: '3',
+      nilai: 'A'
+    }
+  ]
+}
+
+```
